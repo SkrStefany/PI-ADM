@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Merienda:wght@300..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family= Varela+Rodada&display=swap');
+    
+body {
+    background-image: url('img/walpaperdog.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: "Merienda";
+}
+ .container {
+max-width: 400px;
+margin: 0 auto;
+margin-top: 90px;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-family: "Merienda"; 
+
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+button {
+display: block;
+margin-bottom: 10px;
+width: 90%;
+padding: 10px;
+}
+
+button {
+background-color: #007bff;
+color: #fff;
+border: none;
+cursor: pointer;
+width: 20%;
+}
+
+button:hover {
+background-color: #0056b3;
+}
+
+#message {
+margin-top: 10px;
+color: #000000;
+}
+a {
+    text-decoration: none;
+    color: black;
+}

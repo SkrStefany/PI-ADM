@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Merienda:wght@300..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family= Varela+Rodada&display=swap');
+:root{
+ ---color1:#fbebd6;
+ ---color2:#e7b88c;
+ ---color3:#dfbf9f;
+}
+
+
+body, html {
+ height: 100%;
+ margin: 0;
+ font-family: "Merienda";
+}
+
+.capa {
+ background-image: url('img/walpaperdog.jpg');
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 100%;
+}
+
+h1 {
+ margin: 0;
+ padding: 40px;
+ text-align: center;
+ font-size: 70px;}
+
+.login-logo {
+  display: block;
+  margin: 0 auto 20px; /* Centraliza a imagem e adiciona espaço abaixo dela */
+  max-width: 100%; /* Garante que a imagem não exceda a largura do container */
+  background-color: #f1f1f1;
+   border-radius: 90px;
+  height: 100px; /* Mantém a proporção da imagem */
+    }
+
+.login-container {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ padding: 20px;
+ background: rgba(43, 40, 40, 0.527);
+ border-radius: 5px;
+ width: 300px;
+ color: beige;
+}
+input[type=text], input[type=number] {
+ width: 300px;
+ padding: 10px;
+ margin: 5px 0 20px 0;
+ display: inline-block;
+ border: none;
+ background: #ffffff00;
+ border-bottom: 1px solid #e2d9d9;
+ padding: 10px 0;
+ margin-bottom: 20px;
+ font-Size:15px;
+}
+
+button {
+ background-color:#dfbf9fc5;
+ color: rgb(0, 0, 0);
+ font-size: 20px;
+ padding:10px 20px;
+ border-bottom: #dfbf9f;
+ border-radius: 4px;
+ margin: 10px ;
+ cursor: pointer;
+ opacity: 0.9;
+ width: 90%;
+ text-decoration: none;
+}
+button a {
+ text-decoration: none;
+ color: black;
+}
+
+button:hover {
+ opacity:2;
+}

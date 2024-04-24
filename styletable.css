@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Merienda:wght@300..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family= Varela+Rodada&display=swap');
+
+body {
+    background-image: url('img/walpaperdog.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    font-family: "Merienda";
+    overflow: hidden;
+}
+
+.notification {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  width: 80%;
+  text-align: center;
+  
+  transform: translateX(-50%);
+  background-color: #ca2331c2;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.close-btn {
+  background-color: #ff0019;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.close-btn:hover {
+  background-color: #c82333;
+}
+
+.message {
+  margin-right: 10px;
+}
+
+
+
+table {
+    background-color: aliceblue;
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+   
+  }
+  
+  caption {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    margin-top: 53px;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: lightgreen;
+  }
+  
+  tr:nth-child(even) {
+    background-color: lightyellow;
+  }
+  
